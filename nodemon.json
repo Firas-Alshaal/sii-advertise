@@ -1,0 +1,7 @@
+{
+  "env": {
+    "PORT": "8080",
+    "MONGO_USER": "firasshaal97",
+    "MONGO_PASSWORD": "boQOFuLUK0QV3uF8"
+  }
+}

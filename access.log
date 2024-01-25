@@ -1,0 +1,7 @@
+::1 - - [25/Jan/2024:21:01:59 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+::1 - - [25/Jan/2024:21:03:04 +0000] "GET /sii/getAdversements HTTP/1.1" 404 158 "-" "PostmanRuntime/7.36.1"
+::1 - - [25/Jan/2024:21:25:35 +0000] "GET /sii/advertise/65b0d12fd52198dd7ace4a1b HTTP/1.1" 404 35 "-" "PostmanRuntime/7.36.1"
+::1 - - [25/Jan/2024:21:25:39 +0000] "GET /sii/advertises HTTP/1.1" 200 61 "-" "PostmanRuntime/7.36.1"
+::1 - - [25/Jan/2024:21:25:52 +0000] "POST /sii/advertise HTTP/1.1" 201 286 "-" "PostmanRuntime/7.36.1"
+::1 - - [25/Jan/2024:21:26:04 +0000] "GET /sii/advertise/65b2d1e04a9e21a6dfcc47da HTTP/1.1" 200 289 "-" "PostmanRuntime/7.36.1"
+::1 - - [25/Jan/2024:21:26:09 +0000] "GET /sii/advertises HTTP/1.1" 200 293 "-" "PostmanRuntime/7.36.1"
