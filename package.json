@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production MONGO_USER=firasshaal97 MONGO_PASSWORD=boQOFuLUK0QV3uF8 PORT=8080 node app.js",
+    "start": "NODE_ENV=production MONGO_USER=firasshaal97 MONGO_PASSWORD=boQOFuLUK0QV3uF8 PORT=8080 HOST=https://sii-advertise.onrender.com node app.js",
     "start-server": "node app.js",
     "start:dev": "nodemon app.js"
   },
