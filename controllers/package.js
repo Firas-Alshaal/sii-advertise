@@ -14,7 +14,7 @@ exports.createPackage = async (req, res, next) => {
       error.statusCode = 422;
       throw error;
     }
-    const image = req.file.path;
+    const image = `${process.env.HOST}/${req.file.path}`;
     const title = req.body.title;
     const content = req.body.content;
     const price = req.body.price;
