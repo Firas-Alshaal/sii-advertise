@@ -7,3 +7,4 @@
 ::1 - - [25/Jan/2024:21:26:09 +0000] "GET /sii/advertises HTTP/1.1" 200 293 "-" "PostmanRuntime/7.36.1"
 ::1 - - [25/Jan/2024:21:55:42 +0000] "POST /sii/advertise HTTP/1.1" 201 321 "-" "PostmanRuntime/7.36.1"
 ::1 - - [25/Jan/2024:21:56:26 +0000] "POST /sii/advertise HTTP/1.1" 201 328 "-" "PostmanRuntime/7.36.1"
+::1 - - [25/Jan/2024:22:03:13 +0000] "POST /sii/advertise HTTP/1.1" 201 293 "-" "PostmanRuntime/7.36.1"
