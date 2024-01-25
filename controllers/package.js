@@ -14,6 +14,8 @@ exports.createPackage = async (req, res, next) => {
       error.statusCode = 422;
       throw error;
     }
+
+    console.log(process.env.Port);
     const image = `${process.env.HOST}/${req.file.path}`;
     const title = req.body.title;
     const content = req.body.content;
@@ -26,7 +28,7 @@ exports.createPackage = async (req, res, next) => {
       image: image,
     });
 
-    await newPackage.save();
+    // await newPackage.save();
 
     res
       .status(201)
